@@ -19,12 +19,14 @@ GPR-Net/
 │   ├── settings.py
 │   ├── run_all.sh
 │   └── README.md
+├── model/
+│   └── README.md
 ├── requirements.txt
 ├── .gitignore
 └── README.md
 ```
 
-At present, this repository contains the HotSpot dataset-generation and verification pipeline used for the experiments in the manuscript.
+At present, this repository contains the HotSpot dataset-generation and verification pipeline together with the manuscript pseudocode for the GPR-Net forward-propagation procedure. The full model implementation will be released after paper acceptance.
 
 ## Dataset configuration
 
@@ -68,6 +70,12 @@ For detailed information about HotSpot configuration, output files, and individu
 
 ```text
 dataset_generation/README.md
+```
+
+The model-level pseudocode reported as Algorithm 1 in the manuscript is available at:
+
+```text
+model/README.md
 ```
 
 ## Reproducibility note
